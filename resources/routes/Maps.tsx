@@ -1,11 +1,11 @@
 import React from 'react';
 import Navigation from "@/components/Navigation";
 
-export default function About() {
+export default function Maps() {
     return (
         <>
             <Navigation/>
-            <h1>About</h1>
+            <h1>Maps</h1>
         </>
     );
 }

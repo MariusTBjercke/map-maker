@@ -2,7 +2,8 @@ import React from 'react';
 import {createRoot} from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Home from "@/routes/Home";
-import About from "@/routes/About";
+import NewMap from "@/routes/NewMap";
+import Maps from "@/routes/Maps";
 
 const router = createBrowserRouter([
     {
@@ -11,8 +12,12 @@ const router = createBrowserRouter([
         errorElement: <div>404</div>,
     },
     {
-        path: '/about',
-        element: <About/>,
+        path: '/new',
+        element: <NewMap/>,
+    },
+    {
+        path: '/maps',
+        element: <Maps/>,
     }
 ]);
 
