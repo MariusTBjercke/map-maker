@@ -1,0 +1,25 @@
+.search-input {
+    display: flex;
+    gap: .25rem;
+    flex-direction: row;
+    position: relative;
+    border-radius: 1rem;
+    background: #cbcbcb;
+    padding: .5rem 1rem;
+    width: 100%;
+
+    &__icon {
+        background: url("../svg/icons/icons8-search.svg") no-repeat center;
+        background-size: 20px 20px;
+        width: 20px;
+        height: 20px;
+        opacity: .7;
+    }
+
+    &__input {
+        outline: none;
+        border: none;
+        background: transparent;
+        width: 100%;
+    }
+}
