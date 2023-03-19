@@ -5,9 +5,14 @@
         "moduleResolution": "Node",
         "baseUrl": ".",
         "paths": {
-            "@/*": ["resources/*"]
+            "@/*": [
+                "resources/*"
+            ],
+            "@react/*": [
+                "resources/react/*"
+            ]
         },
         "jsx": "react",
-      "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true
     }
 }

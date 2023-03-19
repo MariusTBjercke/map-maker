@@ -1,9 +1,9 @@
 import React from 'react';
 import {createRoot} from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import Home from "@/routes/Home";
-import NewMap from "@/routes/NewMap";
-import Maps from "@/routes/Maps";
+import Home from "@react/routes/Home";
+import NewMap from "@react/routes/NewMap";
+import Maps from "@react/routes/Maps";
 
 const router = createBrowserRouter([
     {

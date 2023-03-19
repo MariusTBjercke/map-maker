@@ -5,6 +5,7 @@ export default defineConfig({
     resolve: {
         alias: {
             '@': '/resources',
+            '@react': '/resources/react',
         }
     },
     plugins: [
